@@ -1,0 +1,23 @@
+- Get all the posts
+- GET /posts
+- Create a new post
+- POST /posts
+- Edit a post
+- PATCH /posts/:postid
+- Create a new user
+- POST /users
+- Get the comments for a post
+- GET /posts/:postid/comments
+- Create a comment for a post
+- POST /posts/:postid/comments
+- Edit a comment for a post
+- PUT /posts/:postid/comments/:commentid
+- Delete a comment for a post
+- DELETE /posts/:postid/comments/:commentid
+- Add a like for a post
+- POST /posts/:postid/comments/:commentid/likes
+- DELETE /posts/:postid/comments/:commentid/likes
+- Get all the posts of a user
+- GET /users/:userid/posts
+- Submit a search on posts
+- GET /search/:keyword
